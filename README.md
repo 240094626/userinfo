@@ -20,6 +20,7 @@ UserInfo {
   private String name;
   
 }
+
 使用的初始数据如下：
 
 id | loginname | password | name
