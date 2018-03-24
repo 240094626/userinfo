@@ -8,11 +8,17 @@
 3. 应当尽量使用 maven 或者 gradle 打包和解决依赖
 4. 最终只提交代码，不需要提交编译后的结果，可以提交 git 的 bundle
 基本数据结构：
+
 UserInfo {
+
   private long id;
+  
   private String loginname;
+  
   private String password; // 加密
+  
   private String name;
+  
 }
 使用的初始数据如下：
 
